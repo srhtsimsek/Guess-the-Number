@@ -16,6 +16,8 @@
 		EC1B400E29D61DA200901D07 /* Guess_the_NumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B400D29D61DA200901D07 /* Guess_the_NumberTests.swift */; };
 		EC1B401829D61DA200901D07 /* Guess_the_NumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B401729D61DA200901D07 /* Guess_the_NumberUITests.swift */; };
 		EC1B401A29D61DA200901D07 /* Guess_the_NumberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B401929D61DA200901D07 /* Guess_the_NumberUITestsLaunchTests.swift */; };
+		EC1B402729D61E5D00901D07 /* GuessScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B402629D61E5D00901D07 /* GuessScene.swift */; };
+		EC1B402929D61E7500901D07 /* ResultScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B402829D61E7500901D07 /* ResultScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EC1B401329D61DA200901D07 /* Guess the NumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess the NumberUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1B401729D61DA200901D07 /* Guess_the_NumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_the_NumberUITests.swift; sourceTree = "<group>"; };
 		EC1B401929D61DA200901D07 /* Guess_the_NumberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_the_NumberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC1B402629D61E5D00901D07 /* GuessScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessScene.swift; sourceTree = "<group>"; };
+		EC1B402829D61E7500901D07 /* ResultScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				EC1B3FFF29D61DA200901D07 /* Assets.xcassets */,
 				EC1B400129D61DA200901D07 /* LaunchScreen.storyboard */,
 				EC1B400429D61DA200901D07 /* Info.plist */,
+				EC1B402629D61E5D00901D07 /* GuessScene.swift */,
+				EC1B402829D61E7500901D07 /* ResultScene.swift */,
 			);
 			path = "Guess the Number";
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1B402729D61E5D00901D07 /* GuessScene.swift in Sources */,
 				EC1B3FFB29D61DA100901D07 /* ViewController.swift in Sources */,
 				EC1B3FF729D61DA100901D07 /* AppDelegate.swift in Sources */,
+				EC1B402929D61E7500901D07 /* ResultScene.swift in Sources */,
 				EC1B3FF929D61DA100901D07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
